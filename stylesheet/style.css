@@ -1,0 +1,110 @@
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000001;
+}
+h2,h3{
+    font-weight: 800;
+  
+}
+body{background: #E5E5E5;}
+.btns{
+    border-radius: 20px;
+    color: #5b595c;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.03); 
+    box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, .48);
+}
+.btns_blue{
+    border-radius: 20px;
+    background-color: #6EA8FF;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500; 
+}
+
+.btns_blue:hover{
+    color: #ffffff;
+    box-shadow: 15px 15px 30px 0px rgba(177, 177, 255, 0.7);
+    transition: box-shadow .5s;
+}
+.btns:hover{
+    color: #000000;
+    box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, .70);
+    transition: box-shadow .5s;
+}
+
+#id_start{
+    border-radius: 20px;
+    border: 1px solid #5b595c;
+    color: #5b595c;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+#id_start:hover{
+    color: #000000;
+    box-shadow: 17px 8px 13px 4px rgba(0, 0, 0, 0.48);
+    transition: box-shadow .5s;
+}
+
+.btn_section{
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(#c6c7ca, #F1F3F6);
+    box-shadow: 13px 7px 25px 5px  rgba(124, 177, 255, 0.48);
+}
+
+
+.nav {
+    height: 60px;
+    background-color: #D1FFFD;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+    background-color: #a7f5f1;
+}
+
+.active {
+    color: #1D6CE3;
+}
+
+.nav__icon {
+    color: #E5E6E8;
+    font-size: 300%;
+}
+
+#collapseOne, #collapseTwo ,#collapseThree{
+    background-color: #E5E5E5;
+}
+
+.img_pet{
+    max-width:100%;
+}
+
+.good{
+        position: fixed;
+        cursor:pointer;
+        width: 100%;
+        height: 100%;
+        z-index:  999;
+        justify-content: center;
+        align-items: center;
+}
