@@ -19,7 +19,18 @@ const init = async () => {
   console.log(data);
   if (data.status == "ok") {
     let url = "/pets/ofUser";
-    //let url = "http://localhost:5000/pets/ofUser";
+    let data = await doApiGet(url);
+    console.log(data);
+    console.log(data.length);
+    createPet(data, 0, data.length);
+  }
+}
+
+const initToUpdat = async () => {
+  let data = await auth();
+  console.log(data);
+  if (data.status == "ok") {
+    let url = "/pets/ofUser";
     let data = await doApiGet(url);
     console.log(data);
     console.log(data.length);
@@ -40,10 +51,8 @@ export const goodJob = () => {
 }
 
 export const showUpdat = async (updateOne ,updated) => {
-  let url = "/pets/ofUser";
-  let data = await doApiGet(url);
+  initToUpdat();
 
-  createPet(data, updateOne, data.length);
   if(updated==100)
     goodJob();
   //clare:

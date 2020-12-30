@@ -42,7 +42,6 @@ const closeLightBox = () => {
 const minos = () => {
   $('#qty_input').val(parseInt($('#qty_input').val()) - 1);
   $(".light_box #qty_input").attr("value", $('#qty_input').val());
-  console.log($('#qty_input').val());
   if ($('#qty_input').val() == 0) {
     $('#qty_input').val(1);
   }
@@ -54,7 +53,6 @@ const plus = () => {
   }
   else{
     $('#qty_input').val(parseInt($('#qty_input').val()) + 1);
-    console.log($('#qty_input').val());
     $(".light_box #qty_input").attr("value", $('#qty_input').val());
   }
 }
