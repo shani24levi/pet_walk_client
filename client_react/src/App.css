@@ -1,0 +1,183 @@
+
+h1{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px !important;
+  line-height: 39px !important;
+  color: #000001;
+}
+h2,h3{font-weight: 800;}
+body{background: #E5E5E5;}
+
+#bottom-nav{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  background-color: #D1FFFD;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*for indexPage  */
+#id_start {
+  border-radius: 20px;
+  border: 1px solid #5b595c;
+  color: #5b595c;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+#id_start a{
+  color: #434244;
+}
+#id_start a:hover{
+  text-decoration: none;
+  color: #5b595c;
+}
+#id_start:hover{
+  box-shadow: 17px 8px 13px 4px rgba(0, 0, 0, 0.48);
+  transition: box-shadow .5s;
+}
+#id_start a:hover{
+  color: #000000;
+}
+
+/* buttonStyle For all pages */
+.btnStyle{
+    border-radius: 20px;
+    color: #5b595c;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.03); 
+    box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, .48);
+}
+.btns:hover{
+  color: #000000;
+  box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, .70);
+  transition: box-shadow .5s;
+}
+
+.btn_section{
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background-image: linear-gradient(#c6c7ca, #F1F3F6);
+  box-shadow: 13px 7px 25px 5px  rgba(124, 177, 255, 0.48);
+}
+
+.btns{
+  border-radius: 20px !important;
+  color: #5b595c;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.03); 
+  box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, .48);
+}
+.btns_blue{
+  border-radius: 20px !important;
+  background-color: #6EA8FF ;
+  color: #000000 ;
+  font-style: normal;
+  font-weight: 500; 
+  border-color: #6EA8FF;
+}
+
+.btns_blue:hover{
+  color: #ffffff;
+  box-shadow: 15px 15px 30px 0px rgba(177, 177, 255, 0.7);
+  transition: box-shadow .5s;
+}
+.btns:hover{
+  color: #000000;
+  box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, .70);
+  transition: box-shadow .5s;
+}
+
+
+/* search  */
+header .search-box{
+	background:#F1F3F6 ;
+    border-radius: 50px;
+    height: 60px;
+	  padding: 10px;
+}
+
+header .search-box:hover .search-btn{
+	color:#77787B;
+}
+
+header .search-btn{
+	color:#77787B;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .search-txt{
+	border:none;
+	outline: none;
+	background: none;
+	color:#77787B;
+	line-height: 40px;
+	width: 80%;
+	padding: 0 25px;
+}
+/* endSearch */
+
+
+.fafaIcons:hover{
+  color:rgb(153, 74, 243);
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.fafaIcons2:hover{
+  color:rgb(74, 195, 243);
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.fafaIcons3:hover{
+  color:rgb(248, 250, 115);
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.fafaIcons4:hover{
+  color:rgb(240, 63, 166);
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.fafaDelete:hover{
+  color:rgb(246, 39, 39);
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  transition: transform .5s;
+  cursor: pointer;
+}
+.fafaEdite:hover{
+  color:rgb(253, 250, 57);
+  -ms-transform: rotate(-360deg); 
+  transform: rotate(-360deg);
+  transition: transform .5s;
+  cursor: pointer;
+}
+
+.card{
+  border: none !important;
+  background-color: #F1F3F6 !important; 
+}
+
+
+.gallery:hover{
+  -ms-transform: rotate(10deg); 
+  transform: rotate(10deg);
+  transition: transform .5s;
+}
+
